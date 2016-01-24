@@ -1,0 +1,48 @@
+
+
+body {margin: 0;padding: 0;
+  background: #f2f2f2;
+  font-family: sans-serif; }
+
+.container ul li {
+  padding: 20px;
+  background: white;
+  border-radius: 10px; }
+
+ header{
+  background:#4644A5;
+
+height: 40px;
+text-align: center;
+line-height: 40px;
+ }
+ h1{margin: 0;
+  vertical-align: middle;
+  color:white;
+
+ }
+.row{
+  margin: 10px 20px;
+
+}
+#result{
+  margin: 30px 20px 10px 0;
+
+}
+.person-row{
+  margin: 10px 0;
+  padding: 10px;
+  background: #FDB45C;
+  width: 100%;
+  float: left;border: 1px solid black;
+}
+.person-row img{
+  float: left;
+  margin-right: 20px;
+}
+.personal-info{
+  float: left;
+}
+.person-row > button{
+  float: right;
+}

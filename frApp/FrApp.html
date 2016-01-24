@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<title>Friend list app</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+	<body>
+	<header>
+		<h1> Friend list</h1>
+	</header>
+	
+	<section>
+		<div class="row">
+			<label>Gender</label>
+			<select id="gender">
+			<option value="A">All</option>
+				<option value="F">Female</option>
+				<option value="M">Male</option>
+			 </select>
+		</div>
+		<div class="row">
+			<label>hobbies</label>
+			<input type="text" id="hobby"/>
+		</div>
+		<div class="row">
+			<button id="searchbtn">Search</button>			
+		</div> 
+		<div id="result">
+		<div class="person-row">
+			<img src="images/img1.jpg" width="50" height="50">
+			<div class="person-info">
+				<div>Elon musk</div>
+				<div> Sports, coding,party</div>
+			</div>
+			<button>Add as friend</button>
+		</div>
+		<div class="person-row">
+			<img src="images/img2.jpg" width="50" height="50">
+			<div class="person-info">
+				<div>Ratan tata</div>
+				<div> Sports, coding,party</div>
+			</div>
+			<button>Add as friend</button>
+		</div>
+			
+		</div>
+		
+	</section>
+	
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
